@@ -1,0 +1,20 @@
+Powder Pines
+Build your mountain. Find your perfect line.
+
+Welcome to Powder Pines, a cozy idle ski resort where you decide which run opens next. Expand across the front and back of the hill, watch tiny skiers find their way down the pistes, and turn a humble mountain stop into a lively winter retreat.
+
+THREE SELLING CARDS
+Your mountain, both sides
+Open pistes across the front and back of the hill and watch your little resort come to life.
+
+A cozy management rhythm
+Improve the chalet, grow your team, and return to income earned while you were away.
+
+Take a run yourself
+Trade your manager's desk for a short slalom and chase a cleaner line through the gates.
+
+TECHNICAL INFORMATION
+Made with Godot 4.5.1 Compatibility. Portrait Android is primary; a Web build is provided where feasible. Local saves support offline core play. Android services have graceful Web fallbacks. Original code is Apache-2.0; source-asset/plugin notices are preserved. Google Play Games and production ads require the owner's final configuration.
+
+FUTURE CONTENT IDEA (NOT IMPLEMENTED)
+A summer mountain-bike season with a new activity and a distinct resort economy.

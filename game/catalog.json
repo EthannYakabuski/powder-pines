@@ -1,0 +1,32 @@
+{
+  "game": "Powder Pines",
+  "achievement_count": 20,
+  "achievements": [
+    {"key":"first_tracks","name":"Fresh Tracks","description":"Open a second ski run."},
+    {"key":"run_builder","name":"Mountain Maker","description":"Open four runs."},
+    {"key":"backcountry","name":"The Other Side","description":"Open Fern Glade on the north face."},
+    {"key":"full_mountain","name":"Every Shade of Snow","description":"Open all twelve runs."},
+    {"key":"chalet_host","name":"A Warm Welcome","description":"Upgrade the chalet."},
+    {"key":"dream_chalet","name":"Dream Chalet","description":"Reach chalet level eight."},
+    {"key":"team_spirit","name":"First Teammate","description":"Hire your first mountain employee."},
+    {"key":"growing_team","name":"Village People","description":"Employ five teammates."},
+    {"key":"first_slalom","name":"That Mountain Feeling","description":"Finish a slalom outing."},
+    {"key":"clean_lines","name":"Clean Lines","description":"Score at least 1,000 slalom points."},
+    {"key":"slope_regular","name":"Just One More Run","description":"Finish ten slalom outings."},
+    {"key":"winter_wealth","name":"Winter Comes In","description":"Earn 1,000 lifetime coins."},
+    {"key":"alpine_tycoon","name":"Alpine Tycoon","description":"Earn 100,000 lifetime coins."},
+    {"key":"season_two","name":"Another Winter","description":"Welcome season two."},
+    {"key":"season_three","name":"A Village Tradition","description":"Welcome season three."},
+    {"key":"mountain_legend","name":"Mountain Legend","description":"Welcome season five."},
+    {"key":"seven_days","name":"Seven Snowy Days","description":"Complete the seven-day gift streak."},
+    {"key":"quest_keeper","name":"Notebook Keeper","description":"Complete seven daily quests."},
+    {"key":"level_five","name":"Local Legend","description":"Reach player level five."},
+    {"key":"level_ten","name":"Summit Spirit","description":"Reach player level ten."}
+  ],
+  "leaderboards": [
+    {"key":"lifetime_revenue","name":"Winter Earnings","unit":"coins","order":"descending"},
+    {"key":"best_slalom","name":"Cleanest Lines","unit":"points","order":"descending"},
+    {"key":"player_level","name":"Summit Spirits","unit":"level","order":"descending"},
+    {"key":"ski_runs","name":"One More Run","unit":"outings","order":"descending"}
+  ]
+}

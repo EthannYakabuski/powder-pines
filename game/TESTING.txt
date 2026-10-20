@@ -1,0 +1,36 @@
+POWDER PINES CORE VERIFICATION
+
+Engine: Godot 4.5.1.stable.official.f62fdbde1, Compatibility.
+Actual renderer: OpenGL 3.3, NVIDIA GeForce GT 1030.
+
+PASS: editor import with supplied native plugin addons (exit 0).
+PASS: tests/test_resort.gd — 43 checks, no failures (exit 0).
+PASS: tests/test_ui.gd — 28 checks, no failures (exit 0).
+PASS: seven actual 540x960 screens captured by tests/capture_screens.gd;
+renderer/capture exits 0 without script errors or resource-leak warnings.
+
+Commands (replace GODOT and PROJECT with the local paths):
+GODOT --headless --path PROJECT --editor --import --quit
+GODOT --headless --path PROJECT --script res://tests/test_resort.gd
+GODOT --headless --path PROJECT --script res://tests/test_ui.gd
+GODOT --path PROJECT --resolution 540x960 --script res://tests/capture_screens.gd -- --out=C:/absolute/output/folder
+
+Model suite covers purchase bounds, income increases, upgrade caps, capped and
+idempotent offline income, clock rollback, seven-day rewards and duplicate claims,
+UTC quest rollover/claims, slalom stats, season preservation/goals, achievement
+idempotency, JSON round-trip/corrupt-field recovery, every actual slalom gate and
+single finish callback.
+
+UI suite constructs every page, checks navigation fits a portrait viewport,
+switches/pans hill faces, opens a run, hires staff, claims daily gifts, verifies
+no duplicate daily or slalom award, and checks unavailable ads grant no coins.
+
+QA harnesses use a transient fresh game model and do not write player saves or
+submit achievements/scores. Audio playback is skipped for headless and capture
+test modes; normal interactive play retains music/clicks and a mute toggle.
+
+Root owns remaining verification and delivery: Android APK/AAB export and actual
+emulator/device run; Web export/browser run; native test ad lifecycle; CI/Pages;
+phone/tablet store captures and complete public handoff. Do not infer those checks
+passed from the core tests above. Real Play Games IDs/account/backend and AdMob
+production configuration/end-to-end testing remain the human's final steps.

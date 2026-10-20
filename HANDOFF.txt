@@ -1,0 +1,58 @@
+POWDER PINES - LOCAL TEST HANDOFF
+Status: READY FOR OWNER LOCAL TEST REVIEW (2026-10-20T11:04:02.985219+00:00).
+
+Open build/android/powder-pines-test-package.zip for the debug APK plus matching
+LICENSES. Keep those notices with redistributed binaries.
+APK: build/android/game-debug.apk (183,709,767 bytes)
+SHA256: 19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5
+ZIP SHA256: f3695f6dcc5ac045d005af254f1ec011ee7d5b202f57f40677bd0a43efdd3de2
+Source hashes and detailed results: docs/LOCAL_TEST_RESULTS.json.
+
+WHAT IS READY
+Portrait resort/idle economy, twelve purchasable ski runs, chalet/staff/ticket
+management, seasons, playable downhill slalom, capped offline earnings, daily
+gifts/quests, player levels, 20 achievement and 4 leaderboard definitions,
+audio/settings and local Web export. Official Google test ads are integrated;
+production Play Games remains disabled until owner configuration. Store copy,
+icons/art and nine actual normal-play emulator captures are included.
+
+VERIFICATION
+Existing 43 model and 28 UI checks plus 52 current lifecycle touch checks across
+six routes passed. Nine scoped Android/Web runtime input files match their
+unchanged before/after byte snapshots and current source.
+
+Historical checks on this same APK verified native earned reward exactly once,
+interstitial after two naturally finished slaloms, once-only daily gift, ordinary
+run purchase and safe Resort Back/relaunch. The reward callback and rendered
+receipt support the source-defined 58 extra coins; the gross saved increase was
+65.235555 because legitimate idle earnings continued. It is not an isolated raw
++58 balance measurement. Daily gift displayed 80 coins plus 12 XP.
+
+Fresh disconnected testing recorded 20 actual-network-none snapshots, three
+completed slaloms, nine gates, 87 total XP and 380.927373 coins including idle
+earnings. All 24 semantic retention groups passed cold launch/restart under
+passive-income rules. Network and display restoration are verified.
+
+All nine selected phone/logical7/logical10 frames come from that fresh successful
+batch and were strictly validated and visually checked. The earlier incomplete
+six-frame batch is excluded. Web export and all nine runtime files/static packed
+checks passed; browser interaction remains unverified.
+
+SESSION AND TEST LIMITS
+The earlier QEMU session hung and ended during capture. One read-only recovery
+booted the existing AVD; its old transient installs/saves were absent. No saved
+state was injected. Historical service tests and fresh offline/capture evidence
+are explicitly separate in docs/NATIVE_QA.json. The failure is retained and is
+not a general device-stability pass.
+
+One Android 11/API30 x86 host-GPU emulator supplies actual 1080x1920 frames;
+logical7/10 profiles are not physical tablets. Emulator audio is disabled, so
+audible Android sound remains unverified. Short QA does not establish every run,
+achievement, seven-day streak, midnight rollover or long-term economy.
+
+OWNER WORK / EXTERNAL LIMITS
+Human/physical-device/audio review, production IDs/backend/consent configuration,
+release signing/AAB/current Play requirements, privacy/audience/store details and
+owner Play submission remain. Public repositories/push/hosted CI/Pages remain
+paused. The externally published package is incomplete; no production service,
+browser or hosted deployment acceptance is claimed.

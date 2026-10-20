@@ -1,0 +1,5 @@
+Copyright 2026 EthannYakabuski.
+Original project code is licensed under the Apache License, Version 2.0.
+Third-party Godot plugins and Kenney game assets retain their original licenses.
+Required third-party license texts and notices are preserved with the corresponding vendored files and in project asset documentation.
+Godot Engine is used under the MIT license: https://godotengine.org/license/

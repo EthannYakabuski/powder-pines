@@ -1,0 +1,42 @@
+{
+  "key": "phone-home",
+  "file": "phone-home.png",
+  "sha256": "df3bd1e2fc89c4ee40ccdfea48e99407195f0af4e2c35e662a25b3d8706c2cdf",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "raw_file": "raw/phone-home.png",
+  "raw_sha256": "464b53a51f8de792a293448478f6d08b06a5b76d8bd00f8b6035cf8d7d8c6d92",
+  "raw_dimensions": [
+    1920,
+    1080
+  ],
+  "capture_metadata_file": "provenance/phone-home.json",
+  "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+  "source_apk_bytes": 183709767,
+  "platform": "Android emulator",
+  "android_api": "30",
+  "android_version": "11",
+  "abi": "x86",
+  "requested_logical_size": [
+    1080,
+    1920
+  ],
+  "actual_framebuffer_size": [
+    1080,
+    1920
+  ],
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "viewport_description": "Phone emulated viewport",
+  "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+  "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+  "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+  "logical_tablet_limitation": "Phone-shaped emulator framebuffer; not a physical phone test.",
+  "game_state": "Normal Resort mountain map and navigation with its genuine current-session runs and saved economy. Outer menu scrolling exposes the map tools and Ski Now action.",
+  "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+  "fatal_runtime_diagnostic_present": false,
+  "display_restoration_verified": true,
+  "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+}

@@ -1,0 +1,448 @@
+{
+  "schema": 1,
+  "game": "Powder Pines",
+  "slug": "powder-pines",
+  "package": "com.ethannyakabuski.powderpines",
+  "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+  "source_apk_bytes": 183709767,
+  "catalog": {
+    "sha256": "0daba9baa88c3b94c53448ee6b3be4d8d30ca9e89ceaad53d8f1ea009f2bfe0f",
+    "achievement_count": 20,
+    "leaderboard_count": 4
+  },
+  "reviewed_source_sha256": {
+    "export_presets.cfg": "6619ea8184327bcef171e6049343c3b5571f6f3895cf6694c55aeff7396917dd",
+    "game/main.gd": "8ee0f057712913eaccd535e2a6dc3ee4d04f82dda7e470d25682c6b611da1a1f",
+    "platform/services.gd": "4b4c6e6751524097dee623825b3384192ac0be5251f2829fcfaadd293cf03356",
+    "project.godot": "189761a5b1333dae9b648c2bfffd15575a8d1d1bf9388bff75b4a3fbe033cac6"
+  },
+  "source_review_kind": "root_controlled_execution_version_attestation",
+  "source_review_coverage": "The coordinator accepted these local APK/source version pairs using reviewed current outputs, serialized export records, frozen main/Services and controlled-write history. Historical Android exports did not retain full pre/post source snapshots; older Powder/Room Web guards covered main and Services only. This is not a claim of reproducible cryptographic APK-to-source build binding.",
+  "capture_count": 9,
+  "included_keys": [
+    "phone-collection",
+    "phone-home",
+    "phone-play",
+    "tablet-10-collection",
+    "tablet-10-home",
+    "tablet-10-play",
+    "tablet-7-collection",
+    "tablet-7-home",
+    "tablet-7-play"
+  ],
+  "pending_keys": [],
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "all_actual_framebuffers": [
+    1080,
+    1920
+  ],
+  "logical_viewports": {
+    "phone": {
+      "size": [
+        1080,
+        1920
+      ],
+      "density": 420
+    },
+    "tablet7": {
+      "size": [
+        1200,
+        1920
+      ],
+      "density": 320
+    },
+    "tablet10": {
+      "size": [
+        1600,
+        2560
+      ],
+      "density": 300
+    }
+  },
+  "metadata_scope": "Public image provenance summary, not the original private capture validation receipt. PNG bytes and the recorded visual qualifications are unchanged.",
+  "runtime_approval": {
+    "approved": true,
+    "evidence": "Recorded normal Android gameplay and offline save/restart checks were accepted with the limitations in docs/NATIVE_QA.json. This is dated local verification; production, physical-device, audible-audio and interactive-browser acceptance is not claimed."
+  },
+  "captures": [
+    {
+      "key": "phone-home",
+      "file": "phone-home.png",
+      "sha256": "df3bd1e2fc89c4ee40ccdfea48e99407195f0af4e2c35e662a25b3d8706c2cdf",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/phone-home.png",
+      "raw_sha256": "464b53a51f8de792a293448478f6d08b06a5b76d8bd00f8b6035cf8d7d8c6d92",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/phone-home.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1080,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Phone emulated viewport",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Phone-shaped emulator framebuffer; not a physical phone test.",
+      "game_state": "Normal Resort mountain map and navigation with its genuine current-session runs and saved economy. Outer menu scrolling exposes the map tools and Ski Now action.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "phone-play",
+      "file": "phone-play.png",
+      "sha256": "596c290f966c367b06d7a7736199710de2a16f02b208a04a5772a9d980b4226a",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/phone-play.png",
+      "raw_sha256": "f5b0d49fd2884597f973b3a4be745662d2cfb44ab91cb8bfb1751a091561b28a",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/phone-play.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1080,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Phone emulated viewport",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Phone-shaped emulator framebuffer; not a physical phone test.",
+      "game_state": "Active normal slalom reached through Ski Now with real steering input, paired gates, score and skier. No fixture, forced result or diagnostic hook.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "phone-collection",
+      "file": "phone-collection.png",
+      "sha256": "a0b16f73b678ec617a6c9e872a0eb0816d9344aafc60d8fb135aa6d8e3382a28",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/phone-collection.png",
+      "raw_sha256": "3f0a004ad8109e926021c2768eff0eadcbfd60c161f08a038eb43e7d094197d3",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/phone-collection.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1080,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Phone emulated viewport",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Phone-shaped emulator framebuffer; not a physical phone test.",
+      "game_state": "Runs roster reached through Build runs; actual current-session opened runs and authored unopened runs/purchase costs are visible. No progression was injected.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-7-home",
+      "file": "tablet-7-home.png",
+      "sha256": "04d841bbb92a425070038e57dc3060fc244bfc4bb367f07af52623119108e75b",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-7-home.png",
+      "raw_sha256": "a7c7b0984cae70fa8eb3c1165a50c4390a16edb199f64382ee49032de59306a6",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-7-home.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1200,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 7-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Normal Resort mountain map and navigation with its genuine current-session runs and saved economy. Outer menu scrolling exposes the map tools and Ski Now action.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-7-play",
+      "file": "tablet-7-play.png",
+      "sha256": "e66c8ce02bdb7e31d25cc87401fed088805e3f1828c93f3638e493872245efc0",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-7-play.png",
+      "raw_sha256": "4f00b486a490bf9c0580c9085a3497a5930af07d457fc6c1ccb6e6f9892cf6cb",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-7-play.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1200,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 7-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Active normal slalom reached through Ski Now with real steering input, paired gates, score and skier. No fixture, forced result or diagnostic hook.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-7-collection",
+      "file": "tablet-7-collection.png",
+      "sha256": "1d22cc02bd1c38d60dbf89584c613edadfe05bd0d6d2bb76491e9881ca85c5db",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-7-collection.png",
+      "raw_sha256": "ce094b1b6efd5933341c9218cbda7ad29819d9440648f15c10d59589cc379eca",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-7-collection.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1200,
+        1920
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 7-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Runs roster reached through Build runs; actual current-session opened runs and authored unopened runs/purchase costs are visible. No progression was injected.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-10-home",
+      "file": "tablet-10-home.png",
+      "sha256": "b60abc4dcfb0c6d7044f9be6b9ac6694b72628df4fd2a13265b815f3b6293040",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-10-home.png",
+      "raw_sha256": "2eb5a8540f9c304db769592b271c43ff68c1615d1fa09d1a72bd15214b5a38ee",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-10-home.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1600,
+        2560
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 10-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Normal Resort mountain map and navigation with its genuine current-session runs and saved economy. Outer menu scrolling exposes the map tools and Ski Now action.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-10-play",
+      "file": "tablet-10-play.png",
+      "sha256": "6ddac3fc0c99c3e389f6ae734ca2d52472c420835604bfea5d78adb3772d8214",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-10-play.png",
+      "raw_sha256": "7bea4778aae2ff8f4b0de5436869df33d8b98072745b7406da00ba2387bc8687",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-10-play.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1600,
+        2560
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 10-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Active normal slalom reached through Ski Now with real steering input, paired gates, score and skier. No fixture, forced result or diagnostic hook.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    },
+    {
+      "key": "tablet-10-collection",
+      "file": "tablet-10-collection.png",
+      "sha256": "8e55c6405501d49b72a3eaf5857d8a59872289b550c1ba5588f47bbcd4c22608",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "raw_file": "raw/tablet-10-collection.png",
+      "raw_sha256": "ba3b01bbf14caf7946e994ee2994544963f07a701c6d422486576314c8a9f58a",
+      "raw_dimensions": [
+        1920,
+        1080
+      ],
+      "capture_metadata_file": "provenance/tablet-10-collection.json",
+      "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+      "source_apk_bytes": 183709767,
+      "platform": "Android emulator",
+      "android_api": "30",
+      "android_version": "11",
+      "abi": "x86",
+      "requested_logical_size": [
+        1600,
+        2560
+      ],
+      "actual_framebuffer_size": [
+        1080,
+        1920
+      ],
+      "physical_device_test": false,
+      "physical_tablet_test": false,
+      "viewport_description": "Approximately 10-inch emulated tablet viewport; not a physical tablet test",
+      "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+      "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+      "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+      "logical_tablet_limitation": "Logical Android size/density override on the same emulator; actual framebuffer remains 1080x1920. This is not physical 7-inch/10-inch hardware evidence.",
+      "game_state": "Runs roster reached through Build runs; actual current-session opened runs and authored unopened runs/purchase costs are visible. No progression was injected.",
+      "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+      "fatal_runtime_diagnostic_present": false,
+      "display_restoration_verified": true,
+      "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+    }
+  ]
+}

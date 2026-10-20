@@ -1,0 +1,26 @@
+Powder Pines
+
+SHORT DESCRIPTION (73/80 characters)
+Grow a cozy ski resort, open new runs, and carve a few turns of your own.
+
+LONG DESCRIPTION
+A small chalet. A whole mountain of possibilities.
+
+Welcome to Powder Pines, a cozy idle ski resort where you decide which run opens next. Expand across the front and back of the hill, watch tiny skiers find their way down the pistes, and turn a humble mountain stop into a lively winter retreat.
+
+Spend your earnings on new runs, chalet improvements, staff, and ticketing upgrades. The resort can earn a capped amount while you are away, so returning feels like opening the curtains on a fresh snow day.
+
+When you want a change of pace, go skiing yourself. Take a short slalom run, thread the gates, and bring bonus rewards back to the village. Advance through seasons, complete small daily goals, and grow your player level along the way.
+
+Your resort progress saves locally and the core game works offline. Take it at your own pace: build, watch, ski, and return when you feel like another turn.
+
+The Android edition supports optional rewarded ads and ads between completed activities. Online achievements and leaderboards depend on Google Play Games sign-in and configuration. Android-only services gracefully fall back in the Web edition.
+
+CATEGORY
+GAME_SIMULATION
+
+SUGGESTED TAGS
+Idle, Simulation, Skiing, Single player, Offline
+
+PUBLICATION NOTE
+This is store copy for the implemented candidate, not a claim of publication or production-service verification. Check feature claims against the final build before uploading. The owner completes backend configuration, final testing, privacy/Data safety declarations, audience/content-rating questionnaires, support/privacy URLs, and Google Play publication.

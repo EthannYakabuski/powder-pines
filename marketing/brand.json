@@ -1,0 +1,73 @@
+{
+  "title": "Powder Pines",
+  "display": [
+    "POWDER",
+    "PINES"
+  ],
+  "kind": "ski",
+  "short": "Grow a cozy ski resort, open new runs, and carve a few turns of your own.",
+  "palette": {
+    "ink": "#183B54",
+    "paper": "#F6FCFF",
+    "primary": "#40A99C",
+    "light": "#D9F0F4",
+    "gold": "#EFBC63",
+    "accent": "#F58467"
+  },
+  "strap": "Build your mountain. Find your perfect line.",
+  "feature_chips": [
+    "BUILD",
+    "UNWIND",
+    "SKI"
+  ],
+  "achievements": [
+    "first_tracks",
+    "run_builder",
+    "backcountry",
+    "full_mountain",
+    "chalet_host",
+    "dream_chalet",
+    "team_spirit",
+    "growing_team",
+    "first_slalom",
+    "clean_lines",
+    "slope_regular",
+    "winter_wealth",
+    "alpine_tycoon",
+    "season_two",
+    "season_three",
+    "mountain_legend",
+    "seven_days",
+    "quest_keeper",
+    "level_five",
+    "level_ten"
+  ],
+  "leaderboards": [
+    "lifetime_revenue",
+    "best_slalom",
+    "player_level",
+    "ski_runs"
+  ],
+  "cards": [
+    [
+      "Your mountain, both sides",
+      "Open pistes across the front and back of the hill and watch your little resort come to life."
+    ],
+    [
+      "A cozy management rhythm",
+      "Improve the chalet, grow your team, and return to income earned while you were away."
+    ],
+    [
+      "Take a run yourself",
+      "Trade your manager's desk for a short slalom and chase a cleaner line through the gates."
+    ]
+  ],
+  "category": "GAME_SIMULATION",
+  "tags": [
+    "Idle",
+    "Simulation",
+    "Skiing",
+    "Single player",
+    "Offline"
+  ]
+}

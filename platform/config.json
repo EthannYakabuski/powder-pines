@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "admob": {
+    "test_mode": true,
+    "app_id": "ca-app-pub-3940256099942544~3347511713",
+    "banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+    "rewarded_unit_id": "ca-app-pub-3940256099942544/5224354917",
+    "tag_for_under_age_of_consent": false
+  },
+  "play_games": {
+    "enabled": false,
+    "game_id": "",
+    "achievements": {
+      "first_tracks": "",
+      "run_builder": "",
+      "backcountry": "",
+      "full_mountain": "",
+      "chalet_host": "",
+      "dream_chalet": "",
+      "team_spirit": "",
+      "growing_team": "",
+      "first_slalom": "",
+      "clean_lines": "",
+      "slope_regular": "",
+      "winter_wealth": "",
+      "alpine_tycoon": "",
+      "season_two": "",
+      "season_three": "",
+      "mountain_legend": "",
+      "seven_days": "",
+      "quest_keeper": "",
+      "level_five": "",
+      "level_ten": ""
+    },
+    "leaderboards": {
+      "lifetime_revenue": "",
+      "best_slalom": "",
+      "player_level": "",
+      "ski_runs": ""
+    }
+  }
+}

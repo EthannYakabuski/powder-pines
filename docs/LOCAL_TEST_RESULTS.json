@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "status": "READY_FOR_OWNER_LOCAL_TEST_REVIEW",
+  "recorded_utc": "2026-10-20T11:04:02.985219+00:00",
+  "android": {
+    "file": "build/android/game-debug.apk",
+    "sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+    "bytes": 183709767,
+    "debug": true,
+    "test_package": "build/android/powder-pines-test-package.zip",
+    "test_package_sha256": "f3695f6dcc5ac045d005af254f1ec011ee7d5b202f57f40677bd0a43efdd3de2",
+    "test_package_bytes": 183761703
+  },
+  "source_hashes": {
+    "export_presets.cfg": "6619ea8184327bcef171e6049343c3b5571f6f3895cf6694c55aeff7396917dd",
+    "game/catalog.json": "0daba9baa88c3b94c53448ee6b3be4d8d30ca9e89ceaad53d8f1ea009f2bfe0f",
+    "game/hill_view.gd": "2405c8e42e0be88184a8a56067563842b088b5c74cf4fa9b6c041825fc38d34e",
+    "game/main.gd": "8ee0f057712913eaccd535e2a6dc3ee4d04f82dda7e470d25682c6b611da1a1f",
+    "game/resort_model.gd": "6c0f9dbcc7b95d1e49d94eebad1652c7c3ab18046524cf1650a333efb97d2a02",
+    "game/slalom_view.gd": "a9f1c12bc6a51eafa0cabc043f7df37e1ab6393e3a2a46d26c58d49eb3518f50",
+    "platform/config.json": "0e7ec54f236e19fed433404dade8bf80a7f718ba1495ee44d405fda3eaa064ea",
+    "platform/services.gd": "4b4c6e6751524097dee623825b3384192ac0be5251f2829fcfaadd293cf03356",
+    "project.godot": "189761a5b1333dae9b648c2bfffd15575a8d1d1bf9388bff75b4a3fbe033cac6"
+  },
+  "source_coverage": "Nine scoped runtime inputs are unchanged before/after Android and Web exports; exact archived bytes and current files match. This is version attestation, not a reproducible APK claim.",
+  "core_tests": {
+    "existing_model_checks": 43,
+    "existing_ui_checks": 28,
+    "current_lifecycle_touch_checks": 52,
+    "touch_routes": 6,
+    "failures": 0,
+    "scope": "Focused model/UI/lifecycle checks; human balance, full content and long-session reliability remain unverified."
+  },
+  "native": {
+    "report": "docs/NATIVE_QA.json",
+    "report_sha256": "607f3e7884ed6bac28672459b361eee240ebd4bcfce10059523ff4f817a462a4",
+    "coordinator_receipt_sha256": "86ca5f23663103fa009f230d903496e87ce4ae3c1ddb6a7fe942a55516b51b71",
+    "reward": {
+      "session": "Historical same-APK pre-crash session",
+      "accepted_native_grants": 1,
+      "context": "double_slalom",
+      "displayed_bonus_coins": 58,
+      "xp_bonus": 0,
+      "native_earned_before_dismissed": true,
+      "saved_before_close": true,
+      "same_result_second_request_no_second_native_event": true,
+      "pre_to_early_currency_gross_delta": {
+        "coins": 65.23555555555492,
+        "revenue": 65.23555555555498,
+        "season_revenue": 65.23555555555498
+      },
+      "measurement_limit": "Gross balances include normal live/resume idle income. The exact58 amount is the explicitly observed granted-branch toast and original58-coin prize; this is not an isolated exact58 balance-delta measurement. Native earned once, no XP/counter change and persisted currency gain support the actual grant."
+    },
+    "daily": {
+      "gift_coins_displayed": 80,
+      "xp_delta": 12,
+      "login_day": 20746,
+      "streak": 1,
+      "repeat_disabled": true,
+      "gross_currency_includes_idle_income": true
+    },
+    "interstitial": "Actual test interstitial presented after the second completed slalom in the same process and was dismissed through its observed X; normal result/navigation returned.",
+    "back": "Default Android Back exits from safe Resort; normal relaunch uses a fresh PID and retains durable state, allowing source-defined passive income.",
+    "offline_progress": {
+      "completed_slaloms": 3,
+      "gates": 9,
+      "coins_including_idle": 380.927373066636,
+      "total_xp": 87
+    },
+    "actual_network_none_snapshots": 20,
+    "cold_restart_required_semantic_groups": 24,
+    "preservation_scope": "Exact structural/XP/round/daily/settings retention, passive-aware currency and last_seen growth, retained achievements with source-valid income thresholds.",
+    "restoration_verified": true,
+    "session_provenance": {
+      "historical_native_pid": "11308",
+      "historical_scope": "Same unchanged APK before the QEMU crash: earned reward, interstitial, daily, purchase and Back. These are historical session proofs and are not claims that transient saved data survived the crash.",
+      "fresh_scope": "New coherent offline/restart/nine-role batch after one read-only emulator recovery; all selected frames are newer than its verified boot.",
+      "old_transient_state_survival": "Earlier transient installs and saves did not survive the ended read-only session; no injection attempted",
+      "no_save_injection": true
+    }
+  },
+  "captures": {
+    "manifest": "marketing/screenshots/capture-manifest.json",
+    "manifest_sha256": "e2a6c8817dbc2ccde5231d237340c7f7d3a066d07ff3fcd95492a3e71fdf09c0",
+    "count": 9,
+    "roles": [
+      "phone-collection",
+      "phone-home",
+      "phone-play",
+      "tablet-10-collection",
+      "tablet-10-home",
+      "tablet-10-play",
+      "tablet-7-collection",
+      "tablet-7-home",
+      "tablet-7-play"
+    ],
+    "actual_framebuffer": [
+      1080,
+      1920
+    ],
+    "logical_tablet_overrides_only": true,
+    "physical_device_testing": false,
+    "root_visual_review": "Phone play, logical7 Home and logical10 collection inspected; native owner reviewed all nine clean frames. Earlier six incomplete-run frames excluded."
+  },
+  "web": {
+    "file": "build/web/index.html",
+    "html_sha256": "39a3c1ae5e30e5fa79c44878c6726bc38045932eb9e371ff1e4dfad5ada95c9d",
+    "pck_sha256": "14732792cb6cdc1a622b3b0f26d3f47283cf3e6e086970c4433f1b48bc280d1c",
+    "runtime_files": 9,
+    "packed_entries": 367,
+    "interactive_browser_verified": false
+  },
+  "licenses": {
+    "source_index": "LICENSES/INDEX.txt",
+    "android_index": "build/android/LICENSES/INDEX.txt",
+    "web_index": "build/web/LICENSES/INDEX.txt",
+    "matching_test_zip_notices": 15
+  },
+  "owner_work": [
+    "Human gameplay/content/balance, long-session and audible sound testing",
+    "Physical phone/tablet acceptance",
+    "Production AdMob/UMP and Play Games IDs, console configuration and final real-service tests",
+    "Release signing/AAB and current Play eligibility, target API/page-size compatibility, support/privacy/audience/Data Safety details and owner submission"
+  ],
+  "publication": {
+    "status": "paused",
+    "repository_push": false,
+    "hosted_ci_run": false,
+    "pages_deployed": false
+  },
+  "known_minor_issues": [],
+  "limits": [
+    "Official Google test ads only; production IDs, Play Games sign-in, signing and store publication remain owner work.",
+    "One API30 emulator with physical1080x1920 framebuffer and logical tablet overrides; no physical phone/tablet acceptance.",
+    "Short QA does not establish all12 runs/20achievements, long-term economy, seven-day streak, midnight rollover or many-round ad reliability.",
+    "Reward and daily gross currency deltas contain legitimate idle earnings; exact award values are bound to explicit rendered receipts and source/native callback evidence.",
+    "The emulator uses -no-audio; audible Android sound has not been verified.",
+    "Historical native service checks precede the QEMU failure. Fresh offline and all nine selected captures follow the one read-only recovery; transient old installs/saves did not survive. No state was injected.",
+    "Browser interaction/audio/WebGL, hosted CI and Pages deployment are unverified; external publication remains paused."
+  ],
+  "scope": "Public summary of recorded local verification; private logs, actual save snapshots and machine/coordinator evidence are not published."
+}

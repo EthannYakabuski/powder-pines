@@ -1,0 +1,407 @@
+[
+  {
+    "file": "achievements/alpine_tycoon.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "055d6c8319931bbe691dafff1ce1dd8f55c257828cc712545920d3c3bc75e060"
+  },
+  {
+    "file": "achievements/backcountry.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "61bc9ada223f9dc5dbe0bab6348ba44868aa1cb67f94396a0053ffaa3932df51"
+  },
+  {
+    "file": "achievements/chalet_host.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "1b9fd454c5d02aa117ca2966a21a3b9b67c46e20e58e477ad1ca0eb81e4544a7"
+  },
+  {
+    "file": "achievements/clean_lines.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "8b33585dc321f2202d40b30ca32561484be1efa4d0f336437d477b8977017dcf"
+  },
+  {
+    "file": "achievements/dream_chalet.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "1b9fd454c5d02aa117ca2966a21a3b9b67c46e20e58e477ad1ca0eb81e4544a7"
+  },
+  {
+    "file": "achievements/first_slalom.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "8b33585dc321f2202d40b30ca32561484be1efa4d0f336437d477b8977017dcf"
+  },
+  {
+    "file": "achievements/first_tracks.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "61bc9ada223f9dc5dbe0bab6348ba44868aa1cb67f94396a0053ffaa3932df51"
+  },
+  {
+    "file": "achievements/full_mountain.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "61bc9ada223f9dc5dbe0bab6348ba44868aa1cb67f94396a0053ffaa3932df51"
+  },
+  {
+    "file": "achievements/growing_team.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "a4eff5b8d658bc22efd0fd1c27c2f641f35efa45b5e57dcb16f1d9d31576693d"
+  },
+  {
+    "file": "achievements/level_five.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "c4a14e551a29fafb7ae69533c4db61a30b0e30a73ea102b966111cf90fbd7209"
+  },
+  {
+    "file": "achievements/level_ten.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "03b639084ece78fc272fb7c05d166668a0ba2d65bee655812a884f813057f943"
+  },
+  {
+    "file": "achievements/mountain_legend.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "61bc9ada223f9dc5dbe0bab6348ba44868aa1cb67f94396a0053ffaa3932df51"
+  },
+  {
+    "file": "achievements/quest_keeper.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "555dad5fcedc6dc02b81d9e240b08a7d3eb94f96a138b5f400c9115e556a01f1"
+  },
+  {
+    "file": "achievements/run_builder.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "61bc9ada223f9dc5dbe0bab6348ba44868aa1cb67f94396a0053ffaa3932df51"
+  },
+  {
+    "file": "achievements/season_three.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "6f677db8ef495022d0ab186843a2f588b3da41f337aa09367873ef8cfa3a4374"
+  },
+  {
+    "file": "achievements/season_two.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "5c0b9e228d09b73a7e411003af34a9f8af0c4ee8c585e2a41191cf49ec01a4db"
+  },
+  {
+    "file": "achievements/seven_days.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "555dad5fcedc6dc02b81d9e240b08a7d3eb94f96a138b5f400c9115e556a01f1"
+  },
+  {
+    "file": "achievements/slope_regular.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "93cef784cc59b60da9b98142eb68e792a39483136ab671bfa0ddc4a26e0fc7c3"
+  },
+  {
+    "file": "achievements/team_spirit.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "a4eff5b8d658bc22efd0fd1c27c2f641f35efa45b5e57dcb16f1d9d31576693d"
+  },
+  {
+    "file": "achievements/winter_wealth.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "055d6c8319931bbe691dafff1ce1dd8f55c257828cc712545920d3c3bc75e060"
+  },
+  {
+    "file": "app-icon-192.png",
+    "dimensions": [
+      192,
+      192
+    ],
+    "mode": "RGB",
+    "sha256": "84376753fb3c56ff97e3c234bca4689e50ccc2f36e02840d61e6cd45c7aae437"
+  },
+  {
+    "file": "app-icon-512.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "cca1446e50fbf84e51f22d944bb92e465e7e8f736b0f8c97a05aa4b395e16442"
+  },
+  {
+    "file": "feature-graphic-1024x500.png",
+    "dimensions": [
+      1024,
+      500
+    ],
+    "mode": "RGB",
+    "sha256": "e6984d9ebab3d488cdd728e06e0c00188180a02d63b1f260d438f5b85d9239ef"
+  },
+  {
+    "file": "leaderboards/best_slalom.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "f8a0bd85f8fb68b98ae559af977f3f191948332df842bac3200a5ae1c9b4aa58"
+  },
+  {
+    "file": "leaderboards/lifetime_revenue.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "3b40ea73df59c0bdb7f1918d3f037ee7414875b55ab66381f157be4070c07369"
+  },
+  {
+    "file": "leaderboards/player_level.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "6f901ffb2bf835f759c1bb65f493d37fa9473366ec2c4b28744218b3b9d8be2f"
+  },
+  {
+    "file": "leaderboards/ski_runs.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "176ea52ac43040b3583f2bf0200c7744d7bbd53e88024158a72d75199836e48d"
+  },
+  {
+    "file": "screenshots/phone-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "a0b16f73b678ec617a6c9e872a0eb0816d9344aafc60d8fb135aa6d8e3382a28"
+  },
+  {
+    "file": "screenshots/phone-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "df3bd1e2fc89c4ee40ccdfea48e99407195f0af4e2c35e662a25b3d8706c2cdf"
+  },
+  {
+    "file": "screenshots/phone-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "596c290f966c367b06d7a7736199710de2a16f02b208a04a5772a9d980b4226a"
+  },
+  {
+    "file": "screenshots/raw/phone-collection.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "3f0a004ad8109e926021c2768eff0eadcbfd60c161f08a038eb43e7d094197d3"
+  },
+  {
+    "file": "screenshots/raw/phone-home.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "464b53a51f8de792a293448478f6d08b06a5b76d8bd00f8b6035cf8d7d8c6d92"
+  },
+  {
+    "file": "screenshots/raw/phone-play.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "f5b0d49fd2884597f973b3a4be745662d2cfb44ab91cb8bfb1751a091561b28a"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-collection.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "ba3b01bbf14caf7946e994ee2994544963f07a701c6d422486576314c8a9f58a"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-home.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "2eb5a8540f9c304db769592b271c43ff68c1615d1fa09d1a72bd15214b5a38ee"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-play.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "7bea4778aae2ff8f4b0de5436869df33d8b98072745b7406da00ba2387bc8687"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-collection.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "ce094b1b6efd5933341c9218cbda7ad29819d9440648f15c10d59589cc379eca"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-home.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "a7c7b0984cae70fa8eb3c1165a50c4390a16edb199f64382ee49032de59306a6"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-play.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "mode": "RGBA",
+    "sha256": "4f00b486a490bf9c0580c9085a3497a5930af07d457fc6c1ccb6e6f9892cf6cb"
+  },
+  {
+    "file": "screenshots/tablet-10-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "8e55c6405501d49b72a3eaf5857d8a59872289b550c1ba5588f47bbcd4c22608"
+  },
+  {
+    "file": "screenshots/tablet-10-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b60abc4dcfb0c6d7044f9be6b9ac6694b72628df4fd2a13265b815f3b6293040"
+  },
+  {
+    "file": "screenshots/tablet-10-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "6ddac3fc0c99c3e389f6ae734ca2d52472c420835604bfea5d78adb3772d8214"
+  },
+  {
+    "file": "screenshots/tablet-7-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "1d22cc02bd1c38d60dbf89584c613edadfe05bd0d6d2bb76491e9881ca85c5db"
+  },
+  {
+    "file": "screenshots/tablet-7-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "04d841bbb92a425070038e57dc3060fc244bfc4bb367f07af52623119108e75b"
+  },
+  {
+    "file": "screenshots/tablet-7-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "e66c8ce02bdb7e31d25cc87401fed088805e3f1828c93f3638e493872245efc0"
+  }
+]

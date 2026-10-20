@@ -1,0 +1,42 @@
+{
+  "key": "phone-play",
+  "file": "phone-play.png",
+  "sha256": "596c290f966c367b06d7a7736199710de2a16f02b208a04a5772a9d980b4226a",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "raw_file": "raw/phone-play.png",
+  "raw_sha256": "f5b0d49fd2884597f973b3a4be745662d2cfb44ab91cb8bfb1751a091561b28a",
+  "raw_dimensions": [
+    1920,
+    1080
+  ],
+  "capture_metadata_file": "provenance/phone-play.json",
+  "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+  "source_apk_bytes": 183709767,
+  "platform": "Android emulator",
+  "android_api": "30",
+  "android_version": "11",
+  "abi": "x86",
+  "requested_logical_size": [
+    1080,
+    1920
+  ],
+  "actual_framebuffer_size": [
+    1080,
+    1920
+  ],
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "viewport_description": "Phone emulated viewport",
+  "capture_source": "Actual emulator framebuffer screenshot of normally launched Android game; no Godot capture/test fixture arguments",
+  "orientation_correction": "90 degrees clockwise to Android display orientation; no crop/content changes",
+  "pixel_processing": "Byte-for-byte copy of the approved portrait PNG and original raw framebuffer PNG; no resizing, crop, overlays, framing, or fabricated content.",
+  "logical_tablet_limitation": "Phone-shaped emulator framebuffer; not a physical phone test.",
+  "game_state": "Active normal slalom reached through Ski Now with real steering input, paired gates, score and skier. No fixture, forced result or diagnostic hook.",
+  "visual_review": "Actual framebuffer inspected: readable intended content and accessible controls with no notification, ANR, fullscreen ad or modal obstruction. Logical tablet viewports remain labeled as emulation.",
+  "fatal_runtime_diagnostic_present": false,
+  "display_restoration_verified": true,
+  "metadata_scope": "Public image provenance summary; original private capture and host records are excluded."
+}

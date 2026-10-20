@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-20T06:01:59.408559+00:00",
+  "game": "Powder Pines",
+  "checks": {
+    "title_max_30": true,
+    "short_max_80": true,
+    "long_max_4000": true,
+    "achievements_exact_catalog_keys": true,
+    "achievements_actual_names": true,
+    "leaderboards_exact_catalog_keys": true,
+    "leaderboards_actual_names": true,
+    "all_manifest_hashes": true,
+    "all_png_decoders_and_icon_sizes": true,
+    "app_icon_size": true,
+    "feature_size": true
+  },
+  "image_count": 45,
+  "short_chars": 73,
+  "long_chars": 1143,
+  "visual_review": "All three feature graphics, app icons and representative achievement/leaderboard icons inspected; Pixel Safari sprite scale corrected.",
+  "screenshots": "Nine recorded normal Android emulator views are included; see screenshots/capture-manifest.json for public image hashes and qualifications.",
+  "capture_validation_utc": "2026-10-20T10:53:24.366999+00:00",
+  "capture_count": 9,
+  "capture_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+  "capture_manifest": "screenshots/capture-manifest.json",
+  "capture_checks": {
+    "all_nine_roles_present": true,
+    "current_source_and_installed_apk_hashes": true,
+    "pid_log_matches": true,
+    "immutable_gpu_hash_verified": true,
+    "viewport_density_restoration_verified": true,
+    "approved_exact_image_bytes": true,
+    "sanitized_selection_schema": true
+  },
+  "capture_visual_review": "Nine normal actual frames; unchanged raw PNG pixels with orientation correction only. No crop, resize or content editing; logical tablet labels explicit.",
+  "capture_scope_limit": "Same-emulator logical tablet checks; separate runtime acceptance and physical-device tests are not inferred.",
+  "capture_manifest_sha256": "e2a6c8817dbc2ccde5231d237340c7f7d3a066d07ff3fcd95492a3e71fdf09c0"
+}

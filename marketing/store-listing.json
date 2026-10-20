@@ -1,0 +1,171 @@
+{
+  "title": "Powder Pines",
+  "short_description": "Grow a cozy ski resort, open new runs, and carve a few turns of your own.",
+  "long_description": "A small chalet. A whole mountain of possibilities.\n\nWelcome to Powder Pines, a cozy idle ski resort where you decide which run opens next. Expand across the front and back of the hill, watch tiny skiers find their way down the pistes, and turn a humble mountain stop into a lively winter retreat.\n\nSpend your earnings on new runs, chalet improvements, staff, and ticketing upgrades. The resort can earn a capped amount while you are away, so returning feels like opening the curtains on a fresh snow day.\n\nWhen you want a change of pace, go skiing yourself. Take a short slalom run, thread the gates, and bring bonus rewards back to the village. Advance through seasons, complete small daily goals, and grow your player level along the way.\n\nYour resort progress saves locally and the core game works offline. Take it at your own pace: build, watch, ski, and return when you feel like another turn.\n\nThe Android edition supports optional rewarded ads and ads between completed activities. Online achievements and leaderboards depend on Google Play Games sign-in and configuration. Android-only services gracefully fall back in the Web edition.",
+  "category": "GAME_SIMULATION",
+  "suggested_tags": [
+    "Idle",
+    "Simulation",
+    "Skiing",
+    "Single player",
+    "Offline"
+  ],
+  "orientation": "portrait",
+  "developer": "EthannYakabuski",
+  "target_platforms": [
+    "Android",
+    "Web where feasible"
+  ],
+  "feature_graphic": "feature-graphic-1024x500.png",
+  "app_icon": "app-icon-512.png",
+  "achievement_icons": [
+    {
+      "key": "first_tracks",
+      "name": "Fresh Tracks",
+      "description": "Open a second ski run.",
+      "file": "achievements/first_tracks.png"
+    },
+    {
+      "key": "run_builder",
+      "name": "Mountain Maker",
+      "description": "Open four runs.",
+      "file": "achievements/run_builder.png"
+    },
+    {
+      "key": "backcountry",
+      "name": "The Other Side",
+      "description": "Open Fern Glade on the north face.",
+      "file": "achievements/backcountry.png"
+    },
+    {
+      "key": "full_mountain",
+      "name": "Every Shade of Snow",
+      "description": "Open all twelve runs.",
+      "file": "achievements/full_mountain.png"
+    },
+    {
+      "key": "chalet_host",
+      "name": "A Warm Welcome",
+      "description": "Upgrade the chalet.",
+      "file": "achievements/chalet_host.png"
+    },
+    {
+      "key": "dream_chalet",
+      "name": "Dream Chalet",
+      "description": "Reach chalet level eight.",
+      "file": "achievements/dream_chalet.png"
+    },
+    {
+      "key": "team_spirit",
+      "name": "First Teammate",
+      "description": "Hire your first mountain employee.",
+      "file": "achievements/team_spirit.png"
+    },
+    {
+      "key": "growing_team",
+      "name": "Village People",
+      "description": "Employ five teammates.",
+      "file": "achievements/growing_team.png"
+    },
+    {
+      "key": "first_slalom",
+      "name": "That Mountain Feeling",
+      "description": "Finish a slalom outing.",
+      "file": "achievements/first_slalom.png"
+    },
+    {
+      "key": "clean_lines",
+      "name": "Clean Lines",
+      "description": "Score at least 1,000 slalom points.",
+      "file": "achievements/clean_lines.png"
+    },
+    {
+      "key": "slope_regular",
+      "name": "Just One More Run",
+      "description": "Finish ten slalom outings.",
+      "file": "achievements/slope_regular.png"
+    },
+    {
+      "key": "winter_wealth",
+      "name": "Winter Comes In",
+      "description": "Earn 1,000 lifetime coins.",
+      "file": "achievements/winter_wealth.png"
+    },
+    {
+      "key": "alpine_tycoon",
+      "name": "Alpine Tycoon",
+      "description": "Earn 100,000 lifetime coins.",
+      "file": "achievements/alpine_tycoon.png"
+    },
+    {
+      "key": "season_two",
+      "name": "Another Winter",
+      "description": "Welcome season two.",
+      "file": "achievements/season_two.png"
+    },
+    {
+      "key": "season_three",
+      "name": "A Village Tradition",
+      "description": "Welcome season three.",
+      "file": "achievements/season_three.png"
+    },
+    {
+      "key": "mountain_legend",
+      "name": "Mountain Legend",
+      "description": "Welcome season five.",
+      "file": "achievements/mountain_legend.png"
+    },
+    {
+      "key": "seven_days",
+      "name": "Seven Snowy Days",
+      "description": "Complete the seven-day gift streak.",
+      "file": "achievements/seven_days.png"
+    },
+    {
+      "key": "quest_keeper",
+      "name": "Notebook Keeper",
+      "description": "Complete seven daily quests.",
+      "file": "achievements/quest_keeper.png"
+    },
+    {
+      "key": "level_five",
+      "name": "Local Legend",
+      "description": "Reach player level five.",
+      "file": "achievements/level_five.png"
+    },
+    {
+      "key": "level_ten",
+      "name": "Summit Spirit",
+      "description": "Reach player level ten.",
+      "file": "achievements/level_ten.png"
+    }
+  ],
+  "leaderboard_icons": [
+    {
+      "key": "lifetime_revenue",
+      "name": "Winter Earnings",
+      "description": "",
+      "file": "leaderboards/lifetime_revenue.png"
+    },
+    {
+      "key": "best_slalom",
+      "name": "Cleanest Lines",
+      "description": "",
+      "file": "leaderboards/best_slalom.png"
+    },
+    {
+      "key": "player_level",
+      "name": "Summit Spirits",
+      "description": "",
+      "file": "leaderboards/player_level.png"
+    },
+    {
+      "key": "ski_runs",
+      "name": "One More Run",
+      "description": "",
+      "file": "leaderboards/ski_runs.png"
+    }
+  ],
+  "copy_validation": "Draft aligned to the game brief; confirm against actual implemented build before store submission.",
+  "external_services": "Google Play Games IDs/backend and production AdMob account configuration/final tests are supplied by the owner. First-pass ads use test IDs."
+}

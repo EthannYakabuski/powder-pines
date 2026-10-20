@@ -1,0 +1,47 @@
+POWDER PINES — IMPLEMENTED GAME DESIGN
+
+Godot 4.5.1, Compatibility renderer, portrait 540 x 960 logical viewport.
+Android is primary. Mouse/keyboard and Web remain playable without native services.
+
+Mountain loop: open and groom twelve named runs across Sunny Front and North Face,
+pan the 1,700-unit hill, watch moving skier NPCs and a gondola, earn coins, upgrade
+the village, and return to the slopes for a relaxed skill-based slalom.
+
+Village: eight chalet tiers, twenty staff slots, eight ticket/rental desk tiers.
+Every upgrade affects income. Offline income earns 50% of the current rate,
+capped at four hours plus two hours per chalet upgrade, to a maximum of eighteen.
+
+Slalom: touch-drag or hold the mouse to steer; arrow keys also work. Twelve gates
+use deterministic alternating centers across a roughly 28-second course. A missed
+gate breaks the combo but does not end the outing. Coins and XP are granted once
+at finish; leaving early grants nothing. The normal prize is never contingent on
+an ad. An earned-reward callback may double a finished outing's coin prize once.
+
+Seasons: open 4, then 7, then 10, then all 12 runs (capped at 12), earn the required
+season coins, and finish three outings to advance. New seasons preserve the
+mountain, add 20% income per season relative to the initial factor, grant coins
+and XP, and reset only the season-specific milestones. Progress can continue
+after season three.
+
+Retention: seven consecutive UTC-day login gifts (80 to 500 coins), daily income,
+gates and outing quests, player levels with coin grants, twenty local achievements
+and four leaderboard metrics. Missing a day restarts the gift streak without
+removing village progress. Device-clock manipulation is not server-verified.
+
+Platform integration contract: /root/Services provides banner visibility,
+round-finished interstitial cadence, earned-reward callbacks, Play Games sign-in,
+achievement unlocking, score submission and privacy options. Missing services
+disable ad reward buttons and preserve offline gameplay. Root owns native plugin
+configuration, real-ID placeholders, exports, CI and publication handoff.
+
+Art/audio: supplied Kenney Tiny Ski packed tiles and UI click audio, with their
+original CC0 notices copied alongside the assets. An original low-volume alpine
+bell loop accompanies the game and can be muted using the header music button.
+
+Possible future DLC: Night Lights adds a separate moonlit mountain, lantern
+slalom and cozy cabin furnishings without changing the first game's economy.
+
+Capture arguments (after --): --capture=resort|runs|lodge|season|daily|journal|slalom
+--capture-path=C:/absolute/path.png. Optional --test-profile uses an explicit
+local QA profile with unlocked runs for illustrative QA captures; it is not a
+production player statistic or evidence of live service verification.

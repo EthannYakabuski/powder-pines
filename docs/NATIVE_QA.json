@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "scope": "Public summary of recorded local verification. Original private device logs, save snapshots and coordinator records are excluded; this metadata is not a new test run.",
+  "package": "com.ethannyakabuski.powderpines",
+  "source_apk_sha256": "19a19b6113a878e0590c095138e659d5f104d8eca98c38c66a78b7313aa874d5",
+  "apk_bytes": 183709767,
+  "diagnostic_hooks": false,
+  "native_touch": "Historical same-APK slaloms, steering, card scrolling, normal menu/daily/purchase taps, reward return and intended Back/relaunch passed current-build Godot error guards. New offline batch separately verifies current-session normal navigation, steering and completion. A historical button-origin drag did not purchase or navigate; no claim that a boundary-clamped drag moved content.",
+  "interstitial": "Actual test interstitial presented after the second completed slalom in the same process and was dismissed through its observed X; normal result/navigation returned.",
+  "purchase": {
+    "run": "Pine Ribbon",
+    "normal_cost_displayed": 96,
+    "run_level_before_after": [
+      0,
+      1
+    ],
+    "total_xp_delta": 33,
+    "repeat_drag_did_not_buy": true
+  },
+  "reward": {
+    "session": "Historical same-APK pre-crash session",
+    "accepted_native_grants": 1,
+    "context": "double_slalom",
+    "displayed_bonus_coins": 58,
+    "xp_bonus": 0,
+    "native_earned_before_dismissed": true,
+    "saved_before_close": true,
+    "same_result_second_request_no_second_native_event": true,
+    "pre_to_early_currency_gross_delta": {
+      "coins": 65.23555555555492,
+      "revenue": 65.23555555555498,
+      "season_revenue": 65.23555555555498
+    },
+    "measurement_limit": "Gross balances include normal live/resume idle income. The exact58 amount is the explicitly observed granted-branch toast and original58-coin prize; this is not an isolated exact58 balance-delta measurement. Native earned once, no XP/counter change and persisted currency gain support the actual grant."
+  },
+  "daily": {
+    "gift_coins_displayed": 80,
+    "xp_delta": 12,
+    "streak": 1,
+    "repeat_disabled": true,
+    "gross_currency_includes_idle_income": true
+  },
+  "back": {
+    "behavior": "Default Android Back exits from safe Resort; normal relaunch uses a fresh PID and retains durable state, allowing source-defined passive income.",
+    "preserved_group_count": 24,
+    "all_recorded_groups_preserved": true
+  },
+  "offline": {
+    "actual_network_none_snapshots": 20,
+    "gameplay_delta": {
+      "completed_slaloms": 3,
+      "gates": 9,
+      "coins_including_idle": 380.927373066636,
+      "total_xp": 87
+    },
+    "network_restored": true,
+    "display_restored": true,
+    "wifi_before_after": [
+      "1",
+      "1"
+    ],
+    "data_before_after": [
+      "1",
+      "1"
+    ],
+    "coldlaunch_preservation": {
+      "group_count": 24,
+      "all_recorded_checks_passed": true
+    },
+    "restart_preservation": {
+      "group_count": 24,
+      "all_recorded_checks_passed": true
+    }
+  },
+  "captures": {
+    "count": 9,
+    "recorded_validation_passed": true,
+    "manifest": "marketing/screenshots/capture-manifest.json",
+    "physical_device_test": false,
+    "physical_tablet_test": false
+  },
+  "limits": [
+    "Official Google test ads only; production IDs, Play Games sign-in, signing and store publication remain owner work.",
+    "One API30 emulator with physical1080x1920 framebuffer and logical tablet overrides; no physical phone/tablet acceptance.",
+    "Short QA does not establish all12 runs/20achievements, long-term economy, seven-day streak, midnight rollover or many-round ad reliability.",
+    "Reward and daily gross currency deltas contain legitimate idle earnings; exact award values are bound to explicit rendered receipts and source/native callback evidence.",
+    "The emulator uses -no-audio; audible Android sound has not been verified.",
+    "Historical native service checks precede the QEMU failure. Fresh offline and all nine selected captures follow the one read-only recovery; transient old installs/saves did not survive. No state was injected."
+  ],
+  "audio_and_browser_qualification": "Emulator audio disabled; audible output, interactive browser/WebGL and physical-device acceptance remain unverified. Production services and human balance remain owner work."
+}
