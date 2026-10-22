@@ -1,0 +1,372 @@
+{
+  "schema": 2,
+  "game": "Powder Pines",
+  "package": "com.ethannyakabuski.powderpines",
+  "runtime_source_commit": null,
+  "runtime_source_binding": "Exact unchanged original accepted APK identity. No complete reproducible APK-to-Git-commit binding is claimed.",
+  "source_apk_sha256": "19A19B6113A878E0590C095138E659D5F104D8ECA98C38C66A78B7313AA874D5",
+  "source_apk_bytes": 183709767,
+  "source_version_attestation": {
+    "scope": "Nine recorded legacy runtime inputs match exact bytes or CRLF-only conversion; this is limited version attestation.",
+    "inputs": {
+      "export_presets.cfg": {
+        "recorded_sha256": "6619EA8184327BCEF171E6049343C3B5571F6F3895CF6694C55AEFF7396917DD",
+        "current_sha256": "1ACC1BCC830AFF24623EFEBE638305B6174654EA9757B17523512CE06796771E",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/catalog.json": {
+        "recorded_sha256": "0DABA9BAA88C3B94C53448EE6B3BE4D8D30CA9E89CEAAD53D8F1EA009F2BFE0F",
+        "current_sha256": "0DABA9BAA88C3B94C53448EE6B3BE4D8D30CA9E89CEAAD53D8F1EA009F2BFE0F",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/hill_view.gd": {
+        "recorded_sha256": "2405C8E42E0BE88184A8A56067563842B088B5C74CF4FA9B6C041825FC38D34E",
+        "current_sha256": "2405C8E42E0BE88184A8A56067563842B088B5C74CF4FA9B6C041825FC38D34E",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/main.gd": {
+        "recorded_sha256": "8EE0F057712913EACCD535E2A6DC3EE4D04F82DDA7E470D25682C6B611DA1A1F",
+        "current_sha256": "64510F8A4E2265463EC952858D0FD05B2ABDCA819207DC39DE4FA46DCF5C8C7E",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/resort_model.gd": {
+        "recorded_sha256": "6C0F9DBCC7B95D1E49D94EEBAD1652C7C3AB18046524CF1650A333EFB97D2A02",
+        "current_sha256": "6C0F9DBCC7B95D1E49D94EEBAD1652C7C3AB18046524CF1650A333EFB97D2A02",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/slalom_view.gd": {
+        "recorded_sha256": "A9F1C12BC6A51EAFA0CABC043F7DF37E1AB6393E3A2A46D26C58D49EB3518F50",
+        "current_sha256": "A9F1C12BC6A51EAFA0CABC043F7DF37E1AB6393E3A2A46D26C58D49EB3518F50",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "platform/config.json": {
+        "recorded_sha256": "0E7EC54F236E19FED433404DADE8BF80A7F718BA1495EE44D405FDA3EAA064EA",
+        "current_sha256": "935F4810DC00BA9CCA5BD3167A4A18903E9FB12C2030EA9D93079E5E227010C8",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "platform/services.gd": {
+        "recorded_sha256": "4B4C6E6751524097DEE623825B3384192AC0BE5251F2829FCFAADD293CF03356",
+        "current_sha256": "4B4C6E6751524097DEE623825B3384192AC0BE5251F2829FCFAADD293CF03356",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "project.godot": {
+        "recorded_sha256": "189761A5B1333DAE9B648C2BFFFD15575A8D1D1BF9388BFF75B4A3FBE033CAC6",
+        "current_sha256": "189761A5B1333DAE9B648C2BFFFD15575A8D1D1BF9388BFF75B4A3FBE033CAC6",
+        "comparison": "Raw exact or CRLF-only conversion"
+      }
+    }
+  },
+  "capture_count": 18,
+  "capture_method": "Fresh unmodified actual Android guest PNGs of ordinary menu navigation using genuine restored progress; no fixtures, crop, resize, rotation or overlay.",
+  "timestamp_basis": "Associated action/capture-batch timestamp. Exact screenshot instant was not separately recorded.",
+  "profile_readbacks": {
+    "phone": {
+      "actual_wm_size": "Physical size:1080x1920; no override",
+      "actual_wm_density": "Physical density:420; no override"
+    },
+    "7-inch": {
+      "actual_wm_size": "Physical size: 1080x1920\nOverride size: 1200x1920",
+      "actual_wm_density": "Physical density: 420\nOverride density: 320"
+    },
+    "10-inch": {
+      "actual_wm_size": "Physical size: 1080x1920\nOverride size: 1600x2560",
+      "actual_wm_density": "Physical density: 420\nOverride density: 300"
+    }
+  },
+  "captures": [
+    {
+      "file": "phone/01-resort.png",
+      "profile": "phone",
+      "view": "resort",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 135222,
+      "sha256": "FB7109BB7C961C9A8C8599E0EDEBD5F2719862FA65E3DA8C924DC2E8DB2881EA",
+      "action_record_utc": "2026-10-22T19:23:25.855654+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "phone/02-build-runs.png",
+      "profile": "phone",
+      "view": "build-runs",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 138500,
+      "sha256": "3F6C4B1014643712423DFC67787B4731E9E87226445406E5F54B5ADF46729E24",
+      "action_record_utc": "2026-10-22T19:26:30.670819+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "phone/03-lodge.png",
+      "profile": "phone",
+      "view": "lodge",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 139078,
+      "sha256": "B271DB68E7223A1F433BF880FD34F09902DE4A43CBE3537AB0484E3546C8A3CE",
+      "action_record_utc": "2026-10-22T19:27:22.939396+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "phone/04-season.png",
+      "profile": "phone",
+      "view": "season",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 146286,
+      "sha256": "B1B0991FF62D918BC7A5F5471E77517706217D402ABB40FBAC2B523C2332544F",
+      "action_record_utc": "2026-10-22T19:27:53.106201+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "phone/05-daily.png",
+      "profile": "phone",
+      "view": "daily-overview",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 127515,
+      "sha256": "821D5E645F3D5006A48F62E18870F5870CEF4D559F95D518D0CB3A10D85B69B9",
+      "action_record_utc": "2026-10-22T19:29:20.181946+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "phone/06-journal.png",
+      "profile": "phone",
+      "view": "journal",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 138537,
+      "sha256": "CAA15E25292E31331811B44AF8FB5EBB29409A4D02D0DD74A407CD6AC67358C6",
+      "action_record_utc": "2026-10-22T19:31:13.734835+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/01-resort.png",
+      "profile": "7-inch",
+      "view": "resort",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 144899,
+      "sha256": "8521AA769D0007E3AD5243C4D3D1D7710213C66E0543772739F81CA574C8CA4F",
+      "action_record_utc": "2026-10-22T19:32:31.631423+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/02-build-runs.png",
+      "profile": "7-inch",
+      "view": "build-runs",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 145699,
+      "sha256": "5F8DF4DDA86D404A82701DFF4002AFDA7D915786B7057E2DABD99E4709880160",
+      "action_record_utc": "2026-10-22T19:33:02.202596+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/03-lodge.png",
+      "profile": "7-inch",
+      "view": "lodge",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 146312,
+      "sha256": "DF0C8F5ACD3688B7065F9E92EDC8B7CFBFF76206EB9C1456E9572911F3A0027C",
+      "action_record_utc": "2026-10-22T19:33:32.378932+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/04-season.png",
+      "profile": "7-inch",
+      "view": "season",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 154123,
+      "sha256": "55A4D9A4D44C4B82CDEE149FA085C5F33535FA0D6E9BB90A4E8F03D935C8FE0E",
+      "action_record_utc": "2026-10-22T19:33:55.835594+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/05-daily.png",
+      "profile": "7-inch",
+      "view": "daily-overview",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 133963,
+      "sha256": "DFD4F2A82A6DF931116931897E8D79B32BCDFE588C7235A4CB8678188DCBFB0F",
+      "action_record_utc": "2026-10-22T19:34:45.450004+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "7inch/06-journal.png",
+      "profile": "7-inch",
+      "view": "journal",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 144415,
+      "sha256": "5E7884716A9FC3A1DA39DD24ACD5111B20EEB29DED7FC4D8906490F2738D96E3",
+      "action_record_utc": "2026-10-22T19:31:53.328287+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/01-resort.png",
+      "profile": "10-inch",
+      "view": "resort",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 208433,
+      "sha256": "20273015EAD9F78D7CD1A1CF407465EE09483E6E23A637649B5114B3433360E8",
+      "action_record_utc": "2026-10-22T19:39:46.249448+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/02-build-runs.png",
+      "profile": "10-inch",
+      "view": "build-runs",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 208857,
+      "sha256": "E4C3EED6D3DBD6252FB2B3787794D3569422426755D25B3953DBE4BB44C68920",
+      "action_record_utc": "2026-10-22T19:40:16.848329+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/03-lodge.png",
+      "profile": "10-inch",
+      "view": "lodge",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 213793,
+      "sha256": "3480C24810060CDA51580F0FDB48D2F91CAF96BD062F43352BF5FE672D65D7DB",
+      "action_record_utc": "2026-10-22T19:38:23.389241+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/04-season.png",
+      "profile": "10-inch",
+      "view": "season",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 228464,
+      "sha256": "F435FD010DAF4DD27C3AB0497FE909ADAAB20C19B757C4698EF8A11298CCBB2D",
+      "action_record_utc": "2026-10-22T19:36:05.464592+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/05-daily.png",
+      "profile": "10-inch",
+      "view": "daily-overview",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 193279,
+      "sha256": "39A873EAAF18017B2F1A66308F02FB97AA79AD5A8D1E22F33F718AED762FA735",
+      "action_record_utc": "2026-10-22T19:35:31.163744+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    },
+    {
+      "file": "10inch/06-journal.png",
+      "profile": "10-inch",
+      "view": "journal",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 208686,
+      "sha256": "196A118A10811140BCE2CED01BF08F2FAB5CF369DBA33ECE4B43F168B2C4BECC",
+      "action_record_utc": "2026-10-22T19:39:16.715708+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted after operator and independent coordinator review. Ordinary scrolling exposes menu content; all page contents need not fit simultaneously."
+    }
+  ],
+  "root_visual_review": "ACCEPTED_WITH_QUALIFICATIONS: all18 exact originals independently viewed; hashes, dimensions and actual profiles verified. Long menu content remains ordinary scroll content.",
+  "restoration_scope": "Genuine primary progress file restored once after temporary-session loss. Historical pending/preferences/full-app state was not restored or claimed retained. A fresh genuine stopped backup was taken after capture.",
+  "progress_qualification": "Elapsed-time catch-up/passive income, quest-day rollover, normal autosaves and a local income achievement changed naturally. Sixteen stable durable fields were compared unchanged. This was not an isolated reward or actual-network-none test.",
+  "historical_capture_qualification": "Earlier selected nine were rotated 90 degrees from 1920x1080 raw frames; tablet-labelled selected images remained 1080x1920. Those files/manifests remain historical, separate from this fresh actual-profile set.",
+  "scope": "One Android11/API30 x86 emulator, not physical phone/tablet acceptance. No new gameplay/ad/offline/production/audio/interactive-Web acceptance.",
+  "private_records_distributed": false
+}

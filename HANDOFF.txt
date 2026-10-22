@@ -1,3 +1,15 @@
+POWDER PINES - ROUND THREE SCREENSHOT SUPPLEMENT
+Updated 2026-10-22. Same preserved original QA APK; screenshot/document expansion only, no rebuild.
+
+Eighteen fresh unchanged actual Android guest PNGs now cover six views on each logical phone/7-inch/10-inch profile: Resort, Build runs, Lodge, Season, Daily overview and Journal. See marketing/screenshots-round-three/capture-manifest.json and docs/SCREENSHOTS_ROUND_THREE.md for exact hashes, dimensions, actual profile readbacks and qualifications.
+APK SHA256 19A19B6113A878E0590C095138E659D5F104D8ECA98C38C66A78B7313AA874D5 remains unchanged. Its original complete build/source commit is unknown; nine recorded runtime inputs match within their limited raw/CRLF comparison scope, not a reproducible whole-APK binding.
+Earlier nine selected images were rotated from 1920x1080 raw frames, and tablet-labelled selections remained 1080x1920. Preserve them as dated historical evidence; they are not this new unmodified actual-profile set.
+The capture session used genuine main-only restoration after transient-session loss. Historical pending/preferences/full-app state was not restored or claimed retained. Natural elapsed-time/passive income, UTC quest rollover and an income achievement changed; 16 stable durable fields compared unchanged. A fresh genuine stopped backup was verified. Original display/radio settings and normal Launcher were restored.
+No new skiing, purchase, claim, season advance, optional ad, sign-in or actual-network-none test is claimed. Dated gameplay/ad/offline evidence below remains separate. Physical devices, audible output, interactive Web, production services and human acceptance retain their limitations.
+A separate screenshots/docs/notices ZIP has its own exact source-document commit/hash receipt; no new APK or replacement original archive is implied. Track later documentation CI through repository Actions; hosted artifacts remain separate binaries.
+Pages, Library and Google Play publication remain outside this update.
+
+PRESERVED DATED HANDOFF
 POWDER PINES - LOCAL TEST HANDOFF
 Status: READY FOR OWNER LOCAL TEST REVIEW (2026-10-20T11:04:02.985219+00:00).
 

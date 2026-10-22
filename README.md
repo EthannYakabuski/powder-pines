@@ -67,3 +67,7 @@ Android artifact.
 Public repository: [Powder Pines](https://github.com/EthannYakabuski/powder-pines). Current source and this continuation documentation are tracked here. Prebuilt exports, real saves, private QA records, credentials and signing material stay outside the published source history. Local artifact availability is described in `HANDOFF.txt`; a fresh clone does not contain the original debug APK.
 
 Original work is Apache-2.0; assets, fonts, engine and plugins retain their own terms in `LICENSES/`, `NOTICE` and source notices. Creature Mixer assets, where used, have custom non-NFT/non-blockchain terms and are not CC0.
+
+## Round Three screenshot supplement
+
+Eighteen fresh unchanged Android screenshots now provide six ordinary menu views per logical phone, 7-inch and 10-inch profile. See [the screenshot scope](docs/SCREENSHOTS_ROUND_THREE.md) and marketing/screenshots-round-three/capture-manifest.json for hashes, actual dimensions/readbacks and visual qualifications. The original APK and packages are unchanged; no rebuild or fresh gameplay/ad/offline pass is claimed. Older rotated screenshots remain dated evidence. The original whole-APK source commit is unknown; source matching is limited to nine recorded runtime inputs.
