@@ -6,7 +6,7 @@ The accepted debug/test AAB is `build/round-four-aab-001/powder-pines-debug.aab`
 
 Powder is archived for further gameplay development; this is only the explicitly assigned Android build correction.
 
-This AAB has not been installed/native-tested, production-signed or uploaded to Play. Earlier native QA and screenshots below remain tied to their named older APKs. The Round Four source/documentation has not yet received verified exact-commit public CI; publication/CI remains pending. Owner release signing, an unused version code, current Play checks and real-service/device testing remain separate. See [Android changes](docs/ROUND_FOUR_ANDROID.md), [platform setup](docs/PLATFORM_SETUP.md) and [handoff](HANDOFF.txt).
+This AAB has not been installed/native-tested, production-signed or uploaded to Play. Earlier native QA and screenshots below remain tied to their named older APKs. Round Four source revision `aa422b7844599d9aaa1b5644e9bff45d418ff423` is public and its [exact-commit hosted CI](https://github.com/EthannYakabuski/powder-pines/actions/runs/40125485138) passed. This source result does not native-test the frozen AAB above. Owner release signing, an unused version code, current Play checks and real-service/device testing remain separate. See [Android changes](docs/ROUND_FOUR_ANDROID.md), [platform setup](docs/PLATFORM_SETUP.md) and [handoff](HANDOFF.txt).
 
 A cozy ski village on both sides of the mountain.
 
