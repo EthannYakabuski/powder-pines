@@ -1,5 +1,9 @@
 # Android integrations and build handoff
 
+## Current Round Four build
+
+The Android preset defaults to Gradle AAB with matched ARM64/x86/x86_64 native coverage. The accepted local export used minimum API 24/target API 35; SHA256 `E541F18EDE314B37BA625D9DF7BC97C2E3373CF72F0131824DE870D491BCCF1B` from build source `658572b3353e3d507991edb2427f8d7a5b72fd50`. New exact-commit public CI, release signing and native/device acceptance remain pending. Older native/API35 observations below are dated evidence only; they do not impose a fixed engine constraint on this new export. Read [the build correction](ROUND_FOUR_ANDROID.md) and [the artifact handoff](../HANDOFF.txt) before distribution.
+
 This project targets Godot **4.5.1 Compatibility**, Android (API35 target, min24), and a single-threaded Web export. Windows desktop builds are outside its scope. Production Play publication remains a separate human step: verify the then-current target API policy before release; a successful API35 test build is not a claim of current store-submission eligibility.
 
 ## Runtime services
@@ -34,22 +38,23 @@ Android debug builds log `NATIVE_AD_EVENT` only from actual SDK presentation, di
 
 ## Build
 
-Install/reuse Godot4.5.1, its matching export templates, Java17 and Android SDK platform35/build tools35, NDK28.1.13356709. A new workstation must have these dependencies available; the hosted workflow provisions its own isolated runner dependencies.
+Install/reuse Godot4.5.1, its matching export templates, Java17 and Android SDK and compatible template build tools (current target API35), NDK28.1.13356709. A new workstation must have these dependencies available; the hosted workflow provisions its own isolated runner dependencies.
 
 ```sh
 godot --headless --editor --path . --import
 godot --headless --path . --script platform/tests/services_smoke.gd
-godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.apk
+godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.aab
+python tools/verify_android_bundle.py build/android/game-debug.aab --preset export_presets.cfg
 godot --headless --path . --export-release Web build/web/index.html
 ```
 
-Create output directories first. A debug APK is installable test software; it is not a production-signed release. The preset includes x86 for the existing API30 emulator and ARM64 for current phones. Release/AAB signing is performed only when the owner supplies signing configuration. `android/build` is generated from matching Godot templates and must not be committed with machine-local SDK paths/caches/keys.
+Create output directories first. The debug AAB is test-signed software, not a production-signed release and not directly installable like an APK. The current preset includes ARM64, x86 and x86_64 with actual matching native-library coverage checked after export. Release signing remains owner-supplied outside Git. `android/build` is generated from matching Godot templates and must not be committed with machine-local SDK paths/caches/keys.
 
 The Android preset intentionally uses `runnable=false`. CLI exports still work; this prevents Godot's editor shutdown path from stopping the shared ADB server during a Web export. No global editor setting is changed. The API30 emulator also needs `rendering/shader_compiler/shader_cache/enabled.android=false` for its observed GL program-binary failure; retain the existing project setting unless an affected-device regression justifies changing it.
 
 Enable `rendering/textures/vram_compression/import_etc2_astc=true` in project settings before importing assets for Android. Keep desktop texture import enabled for Web. Tests, test-only platform scripts, captures, marketing packages, helper scripts, logs and documentation are excluded from shipping resource packs. Copy the app icon to `platform/app-icon-512.png` and point the project icon setting there so excluding `marketing/` does not remove its runtime resource. Game catalogs and runtime art/audio remain included.
 
-Hosted Actions verifies pinned Godot download digests, builds the native Android APK, validates Web/editor service fallback behavior, discovers and runs `tests/test_*.gd`, `tests/*_test.gd`, and `tests/smoke.gd` (requiring at least one), exports Web, retains Android artifacts seven days, and uploads Web artifacts. Pages deployment is disabled; no live site is configured by this workflow. Test processes have bounded timeouts; logs containing script/parse/assertion errors fail even if Godot exits0. CI does not substitute for human playtesting or verify unpublished Google service IDs. Do not enable Pages as part of ordinary updates.
+Hosted Actions verifies pinned Godot download digests, builds and validates the native Android AAB, validates Web/editor service fallback behavior, discovers and runs `tests/test_*.gd`, `tests/*_test.gd`, and `tests/smoke.gd` (requiring at least one), exports Web, retains Android artifacts seven days, and uploads Web artifacts. Pages deployment is disabled; no live site is configured by this workflow. Test processes have bounded timeouts; logs containing script/parse/assertion errors fail even if Godot exits0. CI does not substitute for human playtesting or verify unpublished Google service IDs. Do not enable Pages as part of ordinary updates.
 
 ## Vendored dependencies and notices
 

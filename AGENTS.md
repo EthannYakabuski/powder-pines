@@ -4,7 +4,7 @@ Open this repository root as the single active game project. Start each focused 
 
 ## Targets and verification
 
-- Godot 4.5.1, Compatibility renderer; Android primary, single-threaded Web secondary. Current test export is min API 24/target API 35; owner verifies current release eligibility. No Windows export.
+- Godot 4.5.1, Compatibility renderer; Android primary, single-threaded Web secondary. Current accepted Round Four AAB is min API 24/target API 35; older API35 native QA remains dated evidence; owner verifies current release eligibility. No Windows export.
 - The recorded passing public CI baseline and native-tested local APK SHA256 are in `HANDOFF.txt`. CI archives are separate binaries without that native QA. Keep original local artifacts unchanged; documentation-only edits need no rebuild.
 - Run tests in isolated process-local user-data directories, including the platform pending-service store. Preserve real saves and never manufacture gameplay or native-ad evidence.
 - For runtime changes, import scripts, run relevant game tests and the service smoke test, and retain strict error checks. Test rebuilt affected behavior before changing QA claims.
@@ -27,4 +27,4 @@ godot --headless --path . --script platform/tests/services_smoke.gd
 - Stage only reviewed project files. Private QA originals, raw logs, saves, backups, signing material, credentials, generated SDK builds and prebuilt exports stay out of published history. Ignore rules do not protect already tracked paths; inspect each diff.
 - Preserve `LICENSE`, `NOTICE`, `LICENSES/` and asset/plugin terms. Retain notices with distributed binaries.
 - Pages deployment remains disabled; no Library change or Google Play publication is part of ordinary updates. Production configuration, real-service/physical-device testing and human acceptance remain owner work.
-- Work on the requested game/update. The application inventory cap remains ten; do not start another game as part of continuation.
+- Work on the requested game/update. The concurrent awaiting-review cap is ten; a focused build-only update does not authorize another game or gameplay changes.

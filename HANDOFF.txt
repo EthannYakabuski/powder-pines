@@ -1,3 +1,26 @@
+ROUND FOUR - QUALIFIED ANDROID BUILD-ONLY HANDOFF
+Updated 2026-10-24. Local bundle validation passed; public exact-commit CI and native/device acceptance remain pending.
+
+Build source commit: 658572b3353e3d507991edb2427f8d7a5b72fd50
+AAB: build/round-four-aab-001/powder-pines-debug.aab
+Bytes: 93520641
+SHA256: E541F18EDE314B37BA625D9DF7BC97C2E3373CF72F0131824DE870D491BCCF1B
+Export: Godot4.5.1 Compatibility; minAPI24/targetAPI35; package com.ethannyakabuski.powderpines; version code 1 unchanged from the owner preset.
+Actual native payload: arm64-v8a, x86, x86_64, each with libgodot_android.so and libc++_shared.so. Six ELF class/machine checks passed; every 32-bit native library has its matching 64-bit counterpart.
+Godot exit0, strict build diagnostics empty, runtime input hashes unchanged and ABI validation PASS. This is not a blanket warning-free, Play acceptance or native-runtime claim.
+
+Powder is archived for further gameplay development; this is only the explicitly assigned Android build correction.
+
+Qualified bundle package: build/round-four-aab-001/packages/powder-pines-round-four-aab-test.zip
+Check sibling PACKAGE-RECEIPT.json and the ZIP PACKAGE-MANIFEST.json for actual archive hash, member integrity and the separate documentation commit. This package preserves the exact AAB and complete accompanying LICENSE/NOTICE/LICENSES; private logs, saves, SDK caches and signing material are excluded.
+
+The bundle is debug/test signed, not a release-signed submission. The owner must supply their private release signing configuration outside Git, choose an unused higher version code, verify current target/API and other Play requirements, and perform intended-device/internal-test validation. AABs are not directly installed like APKs. This task did not generate/install device APKs, upload a release or change any production IDs. Round Four public source/CI is pending publication; earlier passing CI URLs below prove only their named historical commits.
+
+No new screenshots are required for this build-only change. Existing native gameplay/ad/offline/audio, physical-device and Web qualifications remain unchanged. In particular, old native-tested APK hashes do not transfer QA to this newly exported AAB. Preserve all previous builds, archives, genuine profiles and owner configuration.
+
+PRESERVED DATED PRE-ROUND-FOUR HANDOFF
+All current/successor statements below belong to the named older binaries and dates, not the AAB identified above.
+
 POWDER PINES - ROUND THREE SCREENSHOT SUPPLEMENT
 Updated 2026-10-22. Same preserved original QA APK; screenshot/document expansion only, no rebuild.
 

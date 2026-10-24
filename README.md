@@ -1,5 +1,13 @@
 # Powder Pines
 
+## Round Four: qualified Android App Bundle
+
+The accepted debug/test AAB is `build/round-four-aab-001/powder-pines-debug.aab` (93520641 bytes), SHA256 `E541F18EDE314B37BA625D9DF7BC97C2E3373CF72F0131824DE870D491BCCF1B`. Build source: `658572b3353e3d507991edb2427f8d7a5b72fd50`. The preset used minimum API 24/target API 35; Godot 4.5.1 Compatibility exported it successfully. The actual bundle passed six native ELF-header checks and matching 32/64-bit library coverage for ARM64, x86 and x86_64.
+
+Powder is archived for further gameplay development; this is only the explicitly assigned Android build correction.
+
+This AAB has not been installed/native-tested, production-signed or uploaded to Play. Earlier native QA and screenshots below remain tied to their named older APKs. The Round Four source/documentation has not yet received verified exact-commit public CI; publication/CI remains pending. Owner release signing, an unused version code, current Play checks and real-service/device testing remain separate. See [Android changes](docs/ROUND_FOUR_ANDROID.md), [platform setup](docs/PLATFORM_SETUP.md) and [handoff](HANDOFF.txt).
+
 A cozy ski village on both sides of the mountain.
 
 Grow a ski resort across the front and back of a mountain. Unlock runs, watch skiers, improve the chalet, manage staff and sales, and earn capped offline income. Ski a rewarding slalom minigame, advance seasons, finish daily goals, and level up your manager.
@@ -21,7 +29,8 @@ godot --headless --editor --path . --import
 godot --headless --path . --script tests/test_resort.gd
 godot --headless --path . --script platform/tests/services_smoke.gd
 godot --headless --path . --export-release Web build/web/index.html
-godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.apk
+godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.aab
+python tools/verify_android_bundle.py build/android/game-debug.aab --preset export_presets.cfg
 ```
 
 Create build/web and build/android before exporting. The Android application ID is `com.ethannyakabuski.powderpines`. Debug APKs include ARM64 and x86 for the supplied test environment. Exported debug builds are for testing; Google Play publication and final release signing remain with the human owner.
@@ -34,7 +43,7 @@ Store text, app/achievement/leaderboard icons, feature art and screenshot proven
 
 ## CI and Web
 
-GitHub Actions imports resources, runs game/service tests with strict error checks, exports Web and an Android debug APK, and uploads artifacts with the accompanying license notices. **Pages deployment is disabled**; this workflow does not publish a live site or submit to Google Play. Current build/test status is recorded below and in `HANDOFF.txt`. A passing run does not verify production services, physical devices or browser interaction.
+GitHub Actions imports resources, runs game/service tests with strict error checks, exports Web and an Android debug AAB, and uploads artifacts with the accompanying license notices. **Pages deployment is disabled**; this workflow does not publish a live site or submit to Google Play. Current build/test status is recorded below and in `HANDOFF.txt`. A passing run does not verify production services, physical devices or browser interaction.
 
 ## Continue development
 
